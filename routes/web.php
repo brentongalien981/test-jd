@@ -11,16 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('illustrations');
-});
+// Route::get('/', function () {
+//     return view('illustrations');
+// });
+
+Route::get('/', 'PhotoController@index');
 
 
 Route::get('/test-illustrations', 'PhotoController@index');
 
-Route::get('photography', function () {
-    return view('photography');
-});
+
+Route::get('photography', 'PhotoController@photography');
 
 Route::get('poetry', function () {
     return view('poetry');

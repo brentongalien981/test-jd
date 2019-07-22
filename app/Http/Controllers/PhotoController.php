@@ -14,8 +14,20 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        //
-        $photos = Photo::all();
+        // $photos = Photo::where('id', '<', 94);
+        $photos = Photo::all()->where('id', '<', 94);
+        return view('test-illustrations', ['photos' => $photos]);
+    }
+
+
+    /**
+     * Undocumented function
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function photography()
+    {
+        $photos = Photo::all()->where('id', '>', 93);
         return view('test-illustrations', ['photos' => $photos]);
     }
 
