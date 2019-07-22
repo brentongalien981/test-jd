@@ -4,7 +4,7 @@
     <div class="container mainBody">
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <img class="img-fluid" src="https://static1.squarespace.com/static/5b02da0475f9ee9ef07288ad/5b733b65898583052c2dc0ae/5b733b66898583052c2dc0bf/1534279382744/IMG_5900.jpg?format=500w">
+                <img class="img-fluid" src="https://live.staticflickr.com/65535/48340808017_52be9c008b_c.jpg">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-12">
