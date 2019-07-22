@@ -27,7 +27,7 @@ class UpdateTablePhotos extends Migration
     {
         Schema::table('photos', function (Blueprint $table) {
             //
-            $table->string('title', 256)->nullable();
+            $table->string('title', 256)->nullable()->change();
         });
     }
 }
