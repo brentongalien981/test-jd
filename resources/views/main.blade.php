@@ -154,7 +154,7 @@
 
 
     <nav class="navbar fixed-bottom navbar-light bg-light">
-        <a id="copyright" class="navbar-brand" href="#">Jada D'Aversa © 2018</a>
+        <a id="copyright" class="navbar-brand" href="#">Jada D'Aversa © 2019</a>
     </nav>
 </body>
 
