@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('illustrations');
 });
 
+
+Route::get('/test-illustrations', 'PhotoController@index');
+
 Route::get('photography', function () {
     return view('photography');
 });
