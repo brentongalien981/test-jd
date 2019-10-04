@@ -6,7 +6,6 @@
 <div class="container mainBody">
     <div class="row">
         <div class="col-md-6 col-sm-12">
-            <h6>To be continued...</h6>
                 <img class="img-fluid" src="https://live.staticflickr.com/65535/48843359427_b2978deb9c_o.jpg">
                 <!-- src="https://static1.squarespace.com/static/5b02da0475f9ee9ef07288ad/t/5b733e6d2b6a28622fca68ab/1534279327404/IMG_6020.jpg?format=1500w"> -->
 
