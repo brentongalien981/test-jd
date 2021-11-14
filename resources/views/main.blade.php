@@ -137,6 +137,9 @@
                     <a class="nav-link" href="/photography">PHOTOGRAPHY</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/animals">ANIMALS</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/poetry">POETRY</a>
                 </li>
                 <li class="nav-item">
