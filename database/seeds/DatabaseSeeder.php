@@ -149,7 +149,21 @@ class DatabaseSeeder extends Seeder
 
 
         
-        
+        /* Animals */
+        $photoLink104 = "https://live.staticflickr.com/65535/51679796416_02be1967c0_b.jpg";
+        $photoLink105 = "https://live.staticflickr.com/65535/51680050653_c108d14300_b.jpg";
+        $photoLink106 = "https://live.staticflickr.com/65535/51678993672_df9f3f3e52_b.jpg";
+        $photoLink107 = "https://live.staticflickr.com/65535/51680684190_afdc7a8b08_b.jpg";
+        $photoLink108 = "https://live.staticflickr.com/65535/51680468839_cb79bae80c_b.jpg";
+        $photoLink109 = "https://live.staticflickr.com/65535/51678993712_9ca0eb5386_b.jpg";
+        $photoLink110 = "https://live.staticflickr.com/65535/51680050633_70a2f0b832_b.jpg";
+        $photoLink111 = "https://live.staticflickr.com/65535/51680684225_1077b7b9cc_b.jpg";
+        $photoLink112 = "https://live.staticflickr.com/65535/51678993732_ee8560b806_b.jpg";
+        $photoLink113 = "https://live.staticflickr.com/65535/51680468774_739d2035fd_b.jpg";
+        $photoLink114 = "https://live.staticflickr.com/65535/51680684245_4dddcb70f7_b.jpg";
+        $photoLink115 = "https://live.staticflickr.com/65535/51680684260_dc8cd849a8_b.jpg";
+        $photoLink116 = "https://live.staticflickr.com/65535/51678993652_763e27615b_b.jpg";
+        $photoLink117 = "https://live.staticflickr.com/65535/51680050763_9c548f75d3_b.jpg";
         
         
         
@@ -275,7 +289,22 @@ class DatabaseSeeder extends Seeder
             array("id" => null, "title" => null, "src" => $photoLink100, "created_at" => null, "updated_at" => null),    
             array("id" => null, "title" => null, "src" => $photoLink101, "created_at" => null, "updated_at" => null),
             array("id" => null, "title" => null, "src" => $photoLink102, "created_at" => null, "updated_at" => null),
-            array("id" => null, "title" => null, "src" => $photoLink103, "created_at" => null, "updated_at" => null)
+            array("id" => null, "title" => null, "src" => $photoLink103, "created_at" => null, "updated_at" => null),
+
+            array("id" => null, "title" => null, "src" => $photoLink104, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink105, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink106, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink107, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink108, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink109, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink110, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink111, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink112, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink113, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink114, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink115, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink116, "created_at" => null, "updated_at" => null),
+            array("id" => null, "title" => null, "src" => $photoLink117, "created_at" => null, "updated_at" => null),
 
 
         );
@@ -285,20 +314,3 @@ class DatabaseSeeder extends Seeder
         DB::table('photos')->insert($data);
     }
 }
-
-
-
-https://live.staticflickr.com/65535/51679796416_02be1967c0_b.jpg
-https://live.staticflickr.com/65535/51680050653_c108d14300_b.jpg
-https://live.staticflickr.com/65535/51678993672_df9f3f3e52_b.jpg
-https://live.staticflickr.com/65535/51680684190_afdc7a8b08_b.jpg
-https://live.staticflickr.com/65535/51680468839_cb79bae80c_b.jpg
-https://live.staticflickr.com/65535/51678993712_9ca0eb5386_b.jpg
-https://live.staticflickr.com/65535/51680050633_70a2f0b832_b.jpg
-https://live.staticflickr.com/65535/51680684225_1077b7b9cc_b.jpg
-https://live.staticflickr.com/65535/51678993732_ee8560b806_b.jpg
-https://live.staticflickr.com/65535/51680468774_739d2035fd_b.jpg
-https://live.staticflickr.com/65535/51680684245_4dddcb70f7_b.jpg
-https://live.staticflickr.com/65535/51680684260_dc8cd849a8_b.jpg
-https://live.staticflickr.com/65535/51678993652_763e27615b_b.jpg
-https://live.staticflickr.com/65535/51680050763_9c548f75d3_b.jpg
