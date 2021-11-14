@@ -23,6 +23,8 @@ Route::get('/test-illustrations', 'PhotoController@index');
 
 Route::get('photography', 'PhotoController@photography');
 
+Route::get('animals', 'PhotoController@animals');
+
 Route::get('poetry', function () {
     return view('poetry');
 });

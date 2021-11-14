@@ -31,6 +31,21 @@ class PhotoController extends Controller
         return view('test-illustrations', ['photos' => $photos]);
     }
 
+
+
+    /**
+     * Undocumented function
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function animals()
+    {
+        $photos = Photo::all()->where('id', '>', 103);
+        return view('animals', ['photos' => $photos]);
+    }
+
+
+
     /**
      * Show the form for creating a new resource.
      *
