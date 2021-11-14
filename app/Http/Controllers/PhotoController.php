@@ -27,7 +27,7 @@ class PhotoController extends Controller
      */
     public function photography()
     {
-        $photos = Photo::all()->where('id', '>', 93)->where('id', '<=' 103);
+        $photos = Photo::all()->where('id', '>', 93)->where('id', '<=', 103);
         return view('test-illustrations', ['photos' => $photos]);
     }
 
